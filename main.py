@@ -9,7 +9,7 @@ from figlet_one import print_title
 
 if name == "main":
 	try:
-		print_title("Password Auth", "By: Shina Salau")
+		print_title("Password Auth", "By: Somil Kathuria")
 		password = get_password()
 		password_feedback(password)
 		if check_password_strength(password):
