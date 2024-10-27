@@ -7,7 +7,7 @@ from figlet_one import print_title
 
 # Protecting the main function
 
-if __name__ == "main":
+if name == "main":
 	try:
 		print_title("Password Auth", "By: Shina Salau")
 		password = get_password()
@@ -17,4 +17,4 @@ if __name__ == "main":
 	except Exception as e:
 		print(f"An Error Occurred! Please try again {e}")
 	except KeyboardInterrupt:
-		print("\n"+"Oops!, You just Interrupted Me. Kindly Apologise.")
+		print("\n"+"Oops!, Interrupted. Kindly Apologise.")
